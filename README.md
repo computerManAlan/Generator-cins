@@ -7,6 +7,8 @@
 ``` bash
 ## 安装
 $ npm install generator-cins -g
+## 启动cins
+$ yo cins
 ## 安装依赖
 $ npm install
 ## 本地开发
