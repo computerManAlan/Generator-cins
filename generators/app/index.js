@@ -64,6 +64,14 @@ module.exports = class extends Generator {
       this.templatePath("src"),
       this.destinationPath("src")
     );
+    this.fs.copy(
+      this.templatePath(".babelrc"),
+      this.destinationPath(".babelrc")
+    );
+    this.fs.copy(
+      this.templatePath("feflow.json"),
+      this.destinationPath("feflow.json")
+    );
   }
 
   end(){

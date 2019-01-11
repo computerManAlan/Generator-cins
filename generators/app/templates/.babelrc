@@ -1,8 +1,5 @@
 {
   "plugins":[
-    "transform-runtime", 
-    "babel-plugin-transform-regenerator", 
-    "babel-plugin-transform-es2015-modules-commonjs",
-    ["import", { libraryName: "antd", style: "css" }], 
+    	["import", { libraryName: "antd", style: "css" }], 
     ]
 }
