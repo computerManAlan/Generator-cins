@@ -8,6 +8,7 @@
 ``` bash
 ## 安装
 $ npm install feflow-cli -g
+$ npm install yo -g
 $ feflow install generator-cins 
 ## 启动cins
 $ yo cins
