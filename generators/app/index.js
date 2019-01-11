@@ -44,17 +44,9 @@ module.exports = class extends Generator {
       this.templatePath('index.tpl.html'),
       this.destinationPath('index.tpl.html')
     );
-    this.fs.copy(
-      this.templatePath('webpack.config.js'),
-      this.destinationPath('webpack.config.js')
-    );
-    this.fs.copy(
-      this.templatePath('webpack.production.config.js'),
-      this.destinationPath('webpack.production.config.js')
-    );
     this.fs.copyTpl(
       this.templatePath('package.json'),
-      this.destinationPath('package.json'),{ 
+      this.destinationPath('package.json'),{
         projectName: this.props.projectName,
         name: this.props.name,
         description: this.props.description
