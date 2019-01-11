@@ -1,22 +1,22 @@
 # generator-cins
 
-基于react+redux+antd的脚手架
+基于react+redux+antd的脚手架（使用于腾讯前端工作流工具:[feflow](https://github.com/feflow/feflow "feflow")）
 
+配合使用: builder-cins （cins的webpack构建器:[builder-cins](https://github.com/aSmallAlan/Builder-cins "builder-cins")）
 # 快速开始
 
 ``` bash
 ## 安装
-$ npm install generator-cins -g
+$ npm install feflow-cli -g
+$ feflow install generator-cins 
 ## 启动cins
 $ yo cins
 ## 安装依赖
 $ npm install
 ## 本地开发
-$ npm start
+$ feflow dev
 ## 打包文件
-$ npm build
-## eslint检查
-$ npm eslint
+$ feflow build
 ```
 
 # generator-cins依赖
@@ -57,10 +57,5 @@ $ npm install <最新的包>
    
 ```
 
-# 关于改进:
-* 未来会对webpack代码分割，懒加载进行项目优化
-* 增加git操作配置
-* 编写用于腾讯最新工作流工具Feflow的版本
 # 附:
-* Fetch文件夹是封装好了get与post的ajax请求方法
-* Util文件夹是已封装好localstorage所使用的方法
+* 内置封装函数
