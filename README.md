@@ -11,7 +11,7 @@ $ npm install feflow-cli -g
 $ npm install yo -g
 $ feflow install generator-cins 
 ## 启动cins
-$ yo cins
+$ feflow init 或 （$ yo cins）
 ## 安装依赖
 $ npm install
 ## 本地开发
