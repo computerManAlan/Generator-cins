@@ -1,6 +1,6 @@
 {
   "name": "generator-cins",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "cins使用的generator",
   "homepage": "https://github.com/aSmallAlan/generator-cins#readme",
   "author": "Zhoujiahang <1805737030@qq.com>",
@@ -11,6 +11,9 @@
   "keywords": [
     "yeoman-generator"
   ],
+  "configs":{
+    "compatibleVersion": ">=0.0.4"
+  },
   "devDependencies": {
     "yeoman-test": "^1.7.0",
     "yeoman-assert": "^3.1.0",
